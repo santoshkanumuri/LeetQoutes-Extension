@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "LeetQuotes",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "description": "Get helpful quotes and solution steps for LeetCode problems.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon48.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "*://leetcode.com/*"
+  ]
+}
