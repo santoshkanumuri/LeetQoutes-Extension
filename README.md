@@ -1,7 +1,7 @@
 # LeetQuotes - LeetCode Problem Solver's Companion
 
 ## Overview
-**LeetQuotes** is a browser extension that makes solving LeetCode problems more engaging and enjoyable. When you're viewing a LeetCode problem, the extension generates motivational quotes and provides step-by-step solution hints, all presented in an inspirational format.
+**LeetQuotes** is a browser extension that makes solving LeetCode problems more engaging and enjoyable. When you're viewing a LeetCode problem, the extension generates hints for solving the problem as quotes and provides step-by-step solution hints.
 
 ## Features
 
