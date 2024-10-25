@@ -22,7 +22,7 @@
 
 1. Download this repository:
     ```bash
-    [git clone https://github.com/santoshkanumuri/leetquotes.git](https://github.com/santoshkanumuri/LeetQuotes-Extension.git)
+    https://github.com/santoshkanumuri/LeetQuotes-Extension.git
     ```
     Or download and extract the ZIP file from the repository.
 2. Open Chrome/Edge browser and go to the Extensions page:
