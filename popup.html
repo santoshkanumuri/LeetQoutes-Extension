@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LeetQuotes</title>
     <style>
-        body {
+
+        body
+        {
             align-items: center;
             justify-content: center;
             font-family: Roboto, sans-serif;
@@ -14,6 +16,9 @@
             height: 400px;
             background-color: #262626;
             overflow: auto !important;
+        }
+        body::-webkit-scrollbar {
+            width: 1px;
         }
         .buttons {
             display: flex;
@@ -71,6 +76,29 @@
             color: white;
             text-align: center;
         }
+        #loader {
+
+            border: 1px solid black;
+            border-radius:50%;
+            border-top: 1px solid whitesmoke;
+            width: 25px;
+            height: 25px;
+            -webkit-animation: spin 2s linear infinite; /* Safari */
+            animation: spin 2s linear infinite;
+            align-items: center;
+            opacity: 0;
+
+        }
+            /* Safari */
+            @-webkit-keyframes spin {
+            0% { -webkit-transform: rotate(0deg); }
+            100% { -webkit-transform: rotate(360deg); }
+            }
+
+            @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+            }
 
     </style>
 </head>
@@ -78,8 +106,11 @@
     <h1>LeetQuotes</h1>
     <div class="buttons">
     <button id="show-quote">Get Quote</button>
+    <span id="loader"></span>
     <button id="show-steps">Show Steps</button>
 </div>
+
+
     <div id="quote"></div>
     <div id="steps"></div>
 
